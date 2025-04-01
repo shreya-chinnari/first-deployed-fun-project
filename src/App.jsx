@@ -46,19 +46,18 @@ export default function App() {
 					<p className="text-2xl p-4">
 						She got April fooled by a KID this morning
 					</p>
-					<div className="flex gap-10 text-align justify-center">
-						<img
-							src={ss}
-							alt=""
-							className="w-80 "
-						/>
-						<button
-							className="mt-4 h-10 p-2 bg-purple-500 rounded"
-							onClick={() => setStep(3)}
-						>
-							Next ➡️
-						</button>
-					</div>
+
+					<img
+						src={ss}
+						alt=""
+						className="w-80 "
+					/>
+					<button
+						className="mt-4 h-10 p-2 bg-purple-500 rounded"
+						onClick={() => setStep(3)}
+					>
+						Next ➡️
+					</button>
 				</div>
 			)}
 			{step === 3 && (
