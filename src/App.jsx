@@ -77,6 +77,7 @@ export default function App() {
 							className="absolute p-2 h-20 w-20 text-xl bg-red-500 rounded"
 							style={{ top: buttonPos.top, left: buttonPos.left }}
 							onMouseEnter={moveButton}
+							onClick={moveButton}
 						>
 							But, how?
 						</button>
